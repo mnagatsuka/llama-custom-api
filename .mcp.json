@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "serena": {
+      "command": "./scripts/serena.sh",
+      "cwd": "."
+    }
+  }
+}
