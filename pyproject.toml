@@ -1,0 +1,18 @@
+[project]
+name = "llama-custom-api"
+version = "0.1.0"
+description = "FastAPI API with custom character-length control for llama.cpp"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "fastapi>=0.117,<0.118",
+  "uvicorn[standard]>=0.30,<0.31",
+  "pydantic>=2.8,<3.0",
+  "llama-cpp-python>=0.3,<0.4",
+  "python-dotenv>=1.0,<2.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
